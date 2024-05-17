@@ -16,7 +16,7 @@ Linuxのコマンドを使いこなそう．
 
 参考資料 [ロボ太さんスライド](https://speakerdeck.com/kaityo256/github-branch)
 
-### 2.1. Fast-forwardでやってみよう
+### 2.1. fast-forwardでやってみよう
 1. `git branch branch_ff`：branch_ffというラベルを作成する
 2. `git switch branch_ff`：視点(HEAD)をmain からbranch_ffに変更する
 3. .mdに修正を加え，ステージング，コミット
@@ -25,7 +25,7 @@ Linuxのコマンドを使いこなそう．
 6. `git merge branch_ff`：branchをmainに結合させる
 
 
-### 2.2. Non-fast-forwardでやってみよう
+### 2.2. mon-fast-forwardでやってみよう
 1. `git branch branch_nff`：branch_ffというラベルを作成する
 2. `git switch branch_nff`：視点(HEAD)をmain からbranch_ffに変更する
 3. .mdに修正を加え，ステージング，コミット
@@ -46,10 +46,14 @@ hash値の見方：F1+logで出てくる一番左の値(hash値)
 
 ### 2.4. conflictが生じない複数のmergeをやってみよう
 branchを切って違う箇所を変更させる．2回mergeを行うが，その場合conflictは発生せずmergeを行うことができる．
-__いつか追記します__
+
+(いつか追記します)
 
 ### 2.5. conflictをやってみよう
 実際にbranchを切ってplanAとplanBを作成してconflictを発生させよう．
+
 (略)
+
 conflictが生じたらVScode上で対処できる．
-__いつか追記します__
+
+(いつか追記します)
