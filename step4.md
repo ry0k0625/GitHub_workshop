@@ -32,5 +32,5 @@ GitHub上で作成したリポジトリをローカルで作業できるよう�
 - `git fetch origin "branch名"`：手順1 リモートからorigin/masterブランチに下ろしてくる
 - `git merge origin/"branch名"`：手順2 origin/masterブランチからmasterブランチへ下ろしてくる
 
-### 2.3.2 pull
+#### 2.3.2 pull
 - `git pull origin "branch名"`：下ろしてきたいbranchを指定してlocalに引き継ぐ．
