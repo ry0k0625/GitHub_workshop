@@ -19,10 +19,10 @@ Git/GitHubの概念について知る．
 
 - Gitでの設定：Git Bash上で入力する
   - ユーザ名の設定
-    - git config --global user.name "ryoko_lab_Desktop"：Gitでのユーザ名になるので，Desktopや家のパソコンと使い分ける人はそれがわかるようなユーザ名にすると良い．（要確認）
-    - git config --global user.email "ry@gmail.com"
+    - `git config --global user.name "ryoko_lab_Desktop"`：Gitでのユーザ名になるので，Desktopや家のパソコンと使い分ける人はそれがわかるようなユーザ名にすると良い．（要確認）
+    - `git config --global user.email "ry@gmail.com"`
   - Gitで使用するエディタを変更する
-    - git config --global core.editor "code --wait"
+    - `git config --global core.editor "code --wait"`
 
 
 ### 2.2. VSCodeの拡張機能のインストール
@@ -56,20 +56,20 @@ link：[松川さんsetting.json](https://gist.github.com/Yuki-MATSUKAWA/465ecd0
 
 ### 3.1. local上でGitサーバー上で管理するディレクトリを作成する
 
-手順1. mkdir git_tmp：フォルダを作成する
-手順2. cd git_tmp：git_tmpを開き，中へ入る
-手順3. git init：「.git」ディレクトリが作成される．（git_tmpはサーバー上で管理されるようになった）
+手順1. `mkdir git_tmp`：フォルダを作成する
+手順2. `cd git_tmp`：git_tmpを開き，中へ入る
+手順3. `git init`：「.git」ディレクトリが作成される．（git_tmpはサーバー上で管理されるようになった）
 
 ### 3.2. Markdown方式で文書を作成しよう
 
-touch git_practice.mdで文書を作成．内容は git_practice.md 参照．
+`touch git_practice.md`で文書を作成．内容は git_practice.md 参照．
 
 ### 3.3. 作成した文書をサーバーで保存しよう
 
 手順1. Ctrl + S でローカルに保存する．
-手順2. git add git_practice.md でステージングする．(「git add .」全てのファイルをステージングできる)
-手順3. git commit -m "initial commit" でサーバーに保存する．
-手順4. git diff git_practice.md --color-word で差分の確認ができる．もしくは F1 + log で球と線の状態が確認できる．
+手順2. `git add git_practice.md` でステージングする．(`git add .`全てのファイルをステージングできる)
+手順3. `git commit -m "initial commit"` でサーバーに保存する．
+手順4. `git diff git_practice.md --color-word` で差分の確認ができる．もしくは F1 + log で球と線の状態が確認できる．
 
 
 ### 3.4. VSCodeのGitBash上の日本語が文字化けする場合への対処
