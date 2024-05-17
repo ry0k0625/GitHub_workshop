@@ -10,8 +10,8 @@
 - `git clone "SSHリンク"`
 
 ### 1.2 コマンドの紹介
--`git restore --staged`
--`git restore . `：二つの手順を踏むことで`git add`，`git commit`前の状態に戻すことができる．
+- `git restore --staged`
+- `git restore . `：二つの手順を踏むことで`git add`，`git commit`前の状態に戻すことができる．
 
 
 ## 2. 共同開発
