@@ -1,4 +1,5 @@
 # 第1回 Introduction
+
 2024年5月7日実施．かかった時間は2時間程度だったが，VSCodeのインストールが全員済んでいたため，そうでない場合はさらに時間がかかるかもしれない．
 
 ## Git/GitHubの概念を知ろう
@@ -12,7 +13,9 @@ Git/GitHubの概念について知る．
 
 ### Gitのインストール
 
- [Git Download リンク](https://git-scm.com/downloads) から.exeファイルをダウンロードしてインストールする．**※作業中のタグをmaster表記かmain(変更可)で選択する場面があるのでそこでmainを選択すること．**これはmaster/slaveが現在の風潮に反しているためである．
+ [Git Download リンク](https://git-scm.com/downloads) から.exeファイルをダウンロードしてインストールする．
+ 
+ ※作業中のタグをmaster表記かmain(変更可)で選択する場面があるのでそこでmainを選択すること．これはmaster/slaveが現在の風潮に反しているためである．
 
 - Gitでの設定：Git Bash上で入力する
   - ユーザ名の設定
@@ -50,7 +53,7 @@ link：[松川さんsetting.json](https://gist.github.com/Yuki-MATSUKAWA/465ecd0
 
 ## 実際にGitを使ってみよう
 
-### local上でGitサーバー上で管理するディレクトリを作成する．
+### local上でGitサーバー上で管理するディレクトリを作成する
 
   1. mkdir git_tmp：フォルダを作成する
   2. cd git_tmp：git_tmpを開き，中へ入る
